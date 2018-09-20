@@ -1,0 +1,168 @@
+.jumbotron{
+    position: relative;
+    z-index:-101;
+  }
+  
+  #video-background { 
+    position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+      width:100%;
+  }
+
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Dokdo', cursive; */
+    font-size: 120px;
+    /* color:rgba(0, 0, 0, 0.5); */
+    color: white;
+    text-shadow: 10px 10px 10px #000000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+    /* margin-left: 550px; */
+    
+  
+ 
+  h2 {
+    font-family: 'Dokdo', cursive;
+    font-size: 40px;
+    color:black;
+    /* margin-left: 600px; */
+    
+  }
+
+  .intro {
+	display: block;
+	background-color: rgba(19, 34, 18, 0.719);
+	color: white;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	width: 100%;
+	position: absolute; 
+	top: 570px;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+  }
+    
+    
+    body, html, .container-fluid {
+        height: 100%;
+   }
+
+   body {
+       /* background-color:  rgba(19, 34, 18, 0.719); */
+   }
+
+   .Maintitle {
+       
+   }
+
+   /* .examples {
+    position: absolute; 
+	top: 700px;
+
+   } */
+
+   .search {
+    position: absolute; 
+    top: 600px;
+    left: 200px;
+
+
+   }
+
+   body{
+    background: url(https://wallpaper-house.com/data/out/8/wallpaper2you_245705.jpg)
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    
+
+}
+
+#gifsGoHere {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    margin-left: 80px;
+}
+
+
+
+img {
+    height: 168px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 70%;
+    border-color:rgb(211, 211, 211);
+    line-height: 1cm;
+}
+
+.surferPicture {
+    border-radius: 20%;
+    width: 20px;
+    margin-top: -3%;
+    transform: rotate(29deg);
+    text-align: center;
+    border-color:white;
+
+}
