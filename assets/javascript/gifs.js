@@ -1,9 +1,22 @@
+
+//Music buttons
+var music = document.getElementById("myAudio"); 
+
+function playAudio() { 
+    music.play(); 
+} 
+
+function pauseAudio() { 
+    music.pause(); 
+}
+
+
 //6.1 - Always read documentation for that API
 
 $('button').on('click',function(){
 var x = $(this).data("animal");
 console.log(x);
-var queryURL = "https://api.giphy.com/v1/gifs/search?q="+x+"&api_key=T3bTJBKugMxVT3yX9ddzafzVAJTHEZtk&limit=1";
+var queryURL = "http://api.giphy.com/v1/gifs/search?q="+x+"&api_key=T3bTJBKugMxVT3yX9ddzafzVAJTHEZtk&limit=1";
 
 $.ajax({url:queryURL,method:"GET"})
        .done(function(response){
@@ -25,3 +38,6 @@ $.ajax({url:queryURL,method:"GET"})
        })
 
 })
+
+
+

@@ -20,43 +20,62 @@
 
 <body>
 
+
     <div class="jumbotron">
         <video id="video-background" preload muted autoplay loop>
             <source src="assets/images/01-Didipicture.mp4" type="video/mp4">
-            <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            
         </video>
+
+
         <div class="container-fluid">
 
-            <div class="row" style="height:60%; display: block;">
+            <div class="row-fluid" style="height:60%; display: block;">
                 <div class="row ">
                     <div class="col-sm"></div>
                     <div class="col-sm"></div>
                     <div class="col-sm">
-                        <h1 class="h1-fluid"> The </h1>
-                        <h1 class="h1-fluid Maintitle"> GifTastic</h1>
+                        <h1 class="h1-fluid" style="font-size:8vw;"> The </h1>
+                        <h1 class="h1-fluid Maintitle" style="font-size:8vw;"> GifTastic</h1>
                     </div>
                 </div>
             </div>
 
 
-            <div class="row" style="height:20%; display: block;">
+            <div class="row-fluid" style="height:20%; display: block;">
                 <div class="row">
                     <div class="col-sm"></div>
                     <div class="col-sm"></div>
                     <div class="col-sm">
-                        <h2>-Stoppy Clicky Thingy</h2>
+                        <h2 style="font-size:3vw;">-Stoppy Clicky Thingy</h2>
                     </div>
                 </div>
             </div>
 
-
+            <div class="row-fluid posi">
+                    <div class="col">
+                        <p class="intro posi grad1" style="font-size:1vw;"> Interactive application that populates your favorite
+                            clothing brand gifs from the Giphy API Database</p>
+                    </div>
+    
+                </div>
 
         </div>
+
+            
+
+        <!-- audio -->
     </div>
 
-    <!-- <button data-animal="dog">ruff</button> -->
-    <p class="intro"> Interactive application that populates your favorite clothing brand gifs from the Giphy API
-        Database</p>
+    <audio id="myAudio">
+
+        <source src="assets/videoplayback.mp4" type="audio/mpeg">
+    </audio>
+
+    <button onclick="playAudio()" type="button" class="audioBtn">Play</button>
+    <button onclick="pauseAudio()" type="button" class="audioBtn">Pause</button>
+
+    <!-- audio End -->
 
 
 
