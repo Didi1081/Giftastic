@@ -16,7 +16,7 @@ function pauseAudio() {
 $('button').on('click',function(){
 var x = $(this).data("animal");
 console.log(x);
-var queryURL = "http://api.giphy.com/v1/gifs/search?q="+x+"&api_key=T3bTJBKugMxVT3yX9ddzafzVAJTHEZtk&limit=1";
+var queryURL = "https://api.giphy.com/v1/gifs/search?q="+x+"&api_key=T3bTJBKugMxVT3yX9ddzafzVAJTHEZtk&limit=1";
 
 $.ajax({url:queryURL,method:"GET"})
        .done(function(response){
