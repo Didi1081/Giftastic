@@ -1,6 +1,6 @@
-.jumbotron{
-    position: relative;
-    z-index:-101;
+  .jumbotron {
+ position: relative;
+    z-index:-101; 
   }
   
   #video-background { 
@@ -12,10 +12,8 @@
       overflow: hidden;
       z-index: -100;
       width:100%;
-  }
-  .tp-video-play-button {
-      display: none !important;
-    }
+  }  
+ 
 
   h1 {
     font-family: 'Roboto Slab', serif;
@@ -68,15 +66,11 @@
          }
     
 
-
- 
-    
-    
     body, html, .container-fluid {
         height: 100%;
         padding: 0;
-   width: 100%;
-   margin: 0;
+        width: 100%;
+        margin: 0;
         
    }
 
@@ -85,16 +79,6 @@
        margin: 0 auto;
        padding: 0;
    }
-
-   .Maintitle {
-       
-   }
-
-   /* .examples {
-    position: absolute; 
-	top: 700px;
-
-   } */
 
    .search {
     position: absolute; 
@@ -125,10 +109,10 @@
     margin-top: -3%;
     transform: rotate(29deg);
 }
-.contact-form form{
+.contact-form .form{
     padding: 14%;
 }
-.contact-form form .row{
+.contact-form .form .row{
     margin-bottom: -7%;
 }
 .contact-form h3{
@@ -147,6 +131,7 @@
     color: #fff;
     cursor: pointer;
 }
+
 .btnContactSubmit
 {
     width: 50%;
@@ -158,11 +143,6 @@
     cursor: pointer;
 }
 
-.button {
-    
-
-}
-
 #gifsGoHere {
     cursor: pointer;
     width: 100%;
@@ -170,8 +150,6 @@
     color: #fff;
     margin-left: 80px;
 }
-
-
 
 img {
     height: 168px;
