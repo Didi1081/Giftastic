@@ -1,5 +1,5 @@
 
-//Music buttons
+
 var music = document.getElementById("myAudio");
 var rating;
 
@@ -23,6 +23,7 @@ function buildButtons() {
     buttonApiListner();
 }
 
+//Music buttons
 
 function playAudio() {
     music.play();
@@ -31,6 +32,9 @@ function playAudio() {
 function pauseAudio() {
     music.pause();
 }
+//Music buttons
+
+
 $('#submit').on('click', function () {
     var clothingBrand = $('#clothingBrand').val();
     rating = $('#rating').val();
@@ -67,6 +71,8 @@ function buttonApiListner() {
 
 }
 
+
+//Hard code for example brand buttons
 $('.hard').on('click', function () {
     var x = $(this).data("animal");
     console.log(x);
@@ -86,6 +92,25 @@ $('.hard').on('click', function () {
         })
 
 })
+
+
+
+
+// Make the Gifs toggle from animated to non-animated
+// $(".gifsGoHere").on("click", function() {
+  
+//     var state = $(this).attr("data-state");
+
+   
+//     if (state === "still") {
+//       $(this).attr("src", $(this).attr("data-animate"));
+//       $(this).attr("data-state", "animate");
+//     } else {
+//       $(this).attr("src", $(this).attr("data-still"));
+//       $(this).attr("data-state", "still");
+//     }
+
+//   });
 
 
 
