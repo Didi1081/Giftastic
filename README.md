@@ -49,5 +49,5 @@ https://didi1081.github.io/Giftastic/
 6. You may repeat this process infinitely. 
 
 
-## Disclamer
+##### Disclaimer
 I do not own any of the images seen on this site.
