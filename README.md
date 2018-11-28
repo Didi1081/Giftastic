@@ -1,20 +1,19 @@
 # Giftastic
-Game made with API, AJAX, JQuery and JavaScript
 
-## Overview
+### Overview
 Giftastic is an Interactive Application that populates GIFS of top clothing brands from the world's largest GIF database. 
 
-## Live Link
+### Live Link
 https://didi1081.github.io/Giftastic/
 
-## Demo
+### Demo
 
 ![Demo](https://github.com/Didi1081/Giftastic/blob/master/GifTastic-%20Stoppy%20Clicky%20Thingy.gif)
 
-### <a href="https://drive.google.com/file/d/1tKRx-KMi51Vl4IuxImZBEVE63w3bceTv/view"> Click here for a Demo</a>
+#### <a href="https://drive.google.com/file/d/1tKRx-KMi51Vl4IuxImZBEVE63w3bceTv/view"> Click here for a Demo</a>
 
 
-## Technologies Utilized
+### Technologies Utilized
 
 * JavaScript
 * Giphy API
@@ -22,13 +21,13 @@ https://didi1081.github.io/Giftastic/
 * CSS
 * Bootstrap
 
-## User Guide - Installation/Running Locally
+### User Guide - Installation/Running Locally
 
 1. Clone Repo
 2. cd ```Giftastic ```
 3. You can then access it from your browser 
 
-## User Guide - Navigation of the App
+### User Guide - Navigation of the App
 
 1. Nav to the search your favorite clothing brand input bar.
 
