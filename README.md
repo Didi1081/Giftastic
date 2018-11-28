@@ -8,7 +8,7 @@ https://didi1081.github.io/Giftastic/
 
 ### Demo
 
-![Demo](https://github.com/Didi1081/Giftastic/blob/master/GifTastic-%20Stoppy%20Clicky%20Thingy.gif)
+![Demo]()
 
 #### <a href="https://drive.google.com/file/d/1tKRx-KMi51Vl4IuxImZBEVE63w3bceTv/view"> Click here for a Demo</a>
 
